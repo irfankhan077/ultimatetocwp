@@ -1,0 +1,135 @@
+:root{
+    --color-primary: #bf1e1e;
+    --color-borders: rgba(0,0,0,.1);
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.shortcoder-popup .shortcode-title{
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.shortcoder-popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: 0 3px 24px rgba(0,0,0,.1);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 100000;
+    width: 80vw;
+    max-height: 800px;
+    opacity: 0;
+    visibility: hidden;
+}
+.shortcoder-popup-overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 99999;
+    overflow-y: auto;
+    background-color: rgba(0,0,0,.4);
+    opacity: 0;
+    visibility: hidden;
+}
+.shortcoder-active .shortcoder-popup,
+.shortcoder-active .shortcoder-popup-overlay{
+    opacity: 1;
+    visibility: visible;
+}
+
+.shortcoder-section{
+    display: none;
+}
+.shortcoder-section.active{
+    display: block;
+}
+.shortcoder-tabs{
+    display: flex;
+    align-items: center;
+}
+.shortcoder-tabs li{
+    margin: 0 10px 0 0;
+    padding: 10px;
+    background-color: #f3f3f3;
+    min-width: 80px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+.shortcoder-tabs li.active{
+    background-color: var(--color-primary);
+    color: #fff;
+}
+.shortcoder-preview{
+    padding: 20px;
+    border: 1px solid var(--color-borders);
+    margin: 20px 0 0;
+}
+.shortcoder-shortcodes-list{
+    max-height: 600px;
+    overflow-y: auto;
+}
+.shortcoder-section .shortcode{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.shortcoder-section .shortcode-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shortcoder-section .shortcode-options{
+    display: flex;
+    align-items: center;
+
+}
+.shortcoder-section .shortcode-options label{
+    display: block;
+    margin: 0 0 5px;
+    font-weight: 600;
+}
+.shortcoder-section .shortcode-options select{
+    width: 200px;
+}
+.shortcoder-section .shortcode .copy{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #ededed;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shortcoder-section .shortcode .copy span{
+    margin-right: 10px;
+    font-size: 24px;
+    display: inline-block;
+    margin-top: 0;
+}
+.shortcoder-section .shortcode span{
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 0;
+    color: grey;
+    max-width: 450px;
+}
+.shortcoder-section .shortcode + .shortcode{
+    margin-top: 20px;
+}
+.shortcoder-section h3{
+    margin-top: 0;
+}
+.shortcoder-section + .shortcoder-section{
+    margin-top: 30px;
+}

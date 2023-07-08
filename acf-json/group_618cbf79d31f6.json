@@ -1,0 +1,395 @@
+{
+    "key": "group_618cbf79d31f6",
+    "title": "Background",
+    "fields": [
+        {
+            "key": "field_618cc02e4533c",
+            "label": "Background",
+            "name": "background",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_618cc03e4533d",
+                    "label": "Desktop",
+                    "name": "desktop",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_618cc0e745340",
+                            "label": "Background Image",
+                            "name": "background_image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_618cc10445341",
+                            "label": "Background Position",
+                            "name": "background_position",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "top-left": "Top Left",
+                                "top-center": "Top Center",
+                                "top-right": "Top Right",
+                                "left-center": "Left Center",
+                                "center-center": "Center Center",
+                                "right-center": "Right Center",
+                                "bottom-left": "Bottom Left",
+                                "bottom-center": "Bottom Center",
+                                "bottom-right": "Bottom Right"
+                            },
+                            "default_value": "center-center",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_637e19039ddf5",
+                            "label": "Background Repeat",
+                            "name": "background_repeat",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "repeat": "Repeat",
+                                "repeat-x": "Repeat X",
+                                "repeat-y": "Repeat Y",
+                                "no-repeat": "No Repeat",
+                                "space": "Space",
+                                "round": "Round",
+                                "initial": "Initial",
+                                "inherit": "Inherit"
+                            },
+                            "default_value": "no-repeat",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_637e194e9ddf6",
+                            "label": "Background Size",
+                            "name": "background_size",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "auto": "Auto",
+                                "length": "Length",
+                                "percentage": "Percentage",
+                                "cover": "Cover",
+                                "contain": "Contain",
+                                "initial": "Initial",
+                                "inherit": "Inherit"
+                            },
+                            "default_value": "cover",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_637e196e9ddf7",
+                            "label": "Background Attachment",
+                            "name": "background_attachment",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "scroll": "Scroll",
+                                "fixed": "Fixed",
+                                "Local": "local",
+                                "initial": "Initial",
+                                "inherit": "Inherit"
+                            },
+                            "default_value": "inherit",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_618cc0b84533f",
+                            "label": "Background Color",
+                            "name": "background_color",
+                            "type": "color_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_637e1c6393340",
+                    "label": "Mobile",
+                    "name": "mobile",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_637e1c6493341",
+                            "label": "Background Image",
+                            "name": "background_image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_637e1c6493342",
+                            "label": "Background Position",
+                            "name": "background_position",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "top-left": "Top Left",
+                                "top-center": "Top Center",
+                                "top-right": "Top Right",
+                                "left-center": "Left Center",
+                                "center-center": "Center Center",
+                                "right-center": "Right Center",
+                                "bottom-left": "Bottom Left",
+                                "bottom-center": "Bottom Center",
+                                "bottom-right": "Bottom Right"
+                            },
+                            "default_value": "center-center",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_637e1c6493343",
+                            "label": "Background Repeat",
+                            "name": "background_repeat",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "repeat": "Repeat",
+                                "repeat-x": "Repeat X",
+                                "repeat-y": "Repeat Y",
+                                "no-repeat": "No Repeat",
+                                "space": "Space",
+                                "round": "Round",
+                                "initial": "Initial",
+                                "inherit": "Inherit"
+                            },
+                            "default_value": "no-repeat",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_637e1c6493344",
+                            "label": "Background Size",
+                            "name": "background_size",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "auto": "Auto",
+                                "length": "Length",
+                                "percentage": "Percentage",
+                                "cover": "Cover",
+                                "contain": "Contain",
+                                "initial": "Initial",
+                                "inherit": "Inherit"
+                            },
+                            "default_value": "cover",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_637e1c6493345",
+                            "label": "Background Attachment",
+                            "name": "background_attachment",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "scroll": "Scroll",
+                                "fixed": "Fixed",
+                                "Local": "local",
+                                "initial": "Initial",
+                                "inherit": "Inherit"
+                            },
+                            "default_value": "inherit",
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 1,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_637e1c6493346",
+                            "label": "Background Color",
+                            "name": "background_color",
+                            "type": "color_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": ""
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1669209200
+}

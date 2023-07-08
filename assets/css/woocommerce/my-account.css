@@ -1,0 +1,166 @@
+/* My account page */
+.g_id_signin > div {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .woocommerce form.login,
+  .woocommerce form.register {
+    margin: 0;
+  }
+  .auth-social {
+    max-width: 900px;
+  }
+  .auth-social .auth-separator::before,
+  .auth-social .auth-separator::after {
+    content: "";
+    flex: 1;
+    background-color: var(--color-borders);
+    height: 1px;
+  }
+  .auth-social .auth-separator::before {
+    margin-right: 10px;
+  }
+  .auth-social .auth-separator::after {
+    margin-left: 10px;
+  }
+  .woocommerce-account .woocommerce-MyAccount-content {
+    width: 78%;
+  }
+  .woocommerce-account .woocommerce-MyAccount-navigation {
+    width: 20%;
+  }
+  
+  .woocommerce-MyAccount-navigation ul li::before {
+    display: none;
+  }
+  .woocommerce-MyAccount-navigation ul li {
+    display: block;
+  }
+  .woocommerce-MyAccount-navigation ul li + li {
+    margin: 0;
+  }
+  .woocommerce-MyAccount-navigation ul li a {
+    position: relative;
+    padding: 10px 0;
+    font-weight: 500;
+    color: #81949c;
+  }
+  .woocommerce-MyAccount-navigation ul li a:hover {
+    text-decoration: none;
+    color: var(--color-headings);
+  }
+  .woocommerce-MyAccount-navigation ul li.is-active a {
+    color: var(--color-headings);
+  }
+  .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--customer-logout a {
+    color: #ff5e5e;
+  }
+  .woocommerce form .show-password-input,
+  .woocommerce-page form .show-password-input {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .woocommerce .woocommerce-MyAccount-content table.shop_table th,
+  .woocommerce .woocommerce-MyAccount-content table.shop_table td {
+    padding: 10px;
+  }
+  .woocommerce table.my_account_orders .button {
+    font-size: 12px;
+    padding: 6px 12px;
+    width: 100%;
+    text-align: center;
+  }
+  .woocommerce .woocommerce-form-login .woocommerce-form-login__rememberme {
+    display: block;
+    margin: 0;
+  }
+  .woocommerce .woocommerce-LostPassword.lost_password a {
+    color: var(--color-headings);
+    font-size: 14px;
+  }
+  .woocommerce .woocommerce-form-register .woocommerce-form-register__submit,
+  .woocommerce .woocommerce-form-login .woocommerce-form-login__submit {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+  .woocommerce form.checkout_coupon,
+  .woocommerce form.login,
+  .woocommerce form.register {
+    border: 1px solid var(--color-borders);
+    border-radius: 0;
+  }
+  .nsm-order .nsm-order-status {
+    border-radius: 50px;
+  }
+  .nsm-order .nsm-order-status span {
+    width: 10px;
+    height: 10px;
+  }
+  .nsm-order-status.refunded,
+  .nsm-order-status.failed,
+  .nsm-order-status.cancelled {
+    background-color: #ffdfdf;
+    color: #ff5e5e;
+  }
+  .nsm-order .nsm-order-status.refunded span,
+  .nsm-order .nsm-order-status.failed span,
+  .nsm-order .nsm-order-status.cancelled span {
+    background-color: #ff5e5e;
+  }
+  .nsm-order-status.pending,
+  .nsm-order-status.processing {
+    background-color: #f0eaff;
+    color: #6d30d0;
+  }
+  .nsm-order .nsm-order-status.pending span,
+  .nsm-order .nsm-order-status.processing span {
+    background-color: #6d30d0;
+  }
+  .nsm-order-status.completed {
+    background-color: #ecfcf1;
+    color: #00a025;
+  }
+  .nsm-order .nsm-order-status.completed span {
+    background-color: #00a025;
+  }
+  .nsm-order-status.on-hold {
+    background-color: #fff4e1;
+    color: #e99b0d;
+  }
+  .nsm-order .nsm-order-status.on-hold span {
+    background-color: #e99b0d;
+  }
+  
+  .nsm-db-orders .nsm-order .nsm-order-status {
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+  .nsm-db-orders .nsm-order + .nsm-order {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid var(--color-borders);
+  }
+  
+  @media (max-width: 768px) {
+    .woocommerce-account .woocommerce-MyAccount-navigation ul{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .woocommerce-MyAccount-navigation ul li{
+      flex: 0 0 50%;
+    }
+    .woocommerce-MyAccount-navigation ul li.is-active a::before{
+      display: none;
+    }
+    .woocommerce-account .woocommerce-MyAccount-content, .woocommerce-account .woocommerce-MyAccount-navigation{
+      float: none;
+      width: 100%;
+    }
+  }
+  
